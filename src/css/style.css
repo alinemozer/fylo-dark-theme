@@ -143,7 +143,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    column-gap: 70px;  
+    column-gap: 70px;
+    padding: 0 0 150px 0;  
 }
 
 .about img {
@@ -193,26 +194,35 @@ body {
 }
 
 .testimonials .container {
-    max-width: 355px;
+    max-width: 350px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .testimonials .testimonial {
     background-color: var(--background-color-testimonials);
-    padding: 35px;
+    padding: 30px 25px;
 }
 
-.testimonials .testimonial h4 {
-    width: 235px;
-}
-
-.testimonials .testimonial img {
-    width: 35px;
+.testimonials .testimonial .member {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+.testimonials .testimonial .member img {
+    width: 35px;
+    border-radius: 50px;
+    
+}
+
+.testimonials .testimonial .member-information p {
+    font-size: 1rem;
+    padding: 3px 0 0 0;
+    width: 150px;
+} 
 
 .footer {
  
