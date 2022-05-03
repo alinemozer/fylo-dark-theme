@@ -210,12 +210,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 25px 0 0 0;
 }
 
 .testimonials .testimonial .member img {
     width: 35px;
     border-radius: 50px;
-    
+    margin: 0 10px 0 0;  
 }
 
 .testimonials .testimonial .member-information p {
