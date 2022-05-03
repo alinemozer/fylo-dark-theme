@@ -1,0 +1,17 @@
+:root {
+    --max-width-size: 1440px;
+}
+
+:root {
+    --background-color-hero-and-email: hsl(217, 28%, 15%);
+    --background-color-main: hsl(218, 28%, 13%);
+    --background-color-footer: hsl(216, 53%, 9%);
+    --background-color-testimonials: hsl(219, 30%, 18%);
+}
+
+:root {
+    --color1-gradient: hsl(176, 68%, 64%);
+    --color2-gradient: hsl(198, 60%, 50%);
+    --error-color: hsl(0, 100%, 63%);
+    --neutral-color: hsl(0, 0%, 100%);
+}
