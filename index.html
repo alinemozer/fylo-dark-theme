@@ -35,15 +35,9 @@
 
             <nav class="header-navigation">
                 <ul>
-                    <li>
-                        <a href="#">Features</a>
-                    </li>
-                    <li>
-                        <a href="#">Team</a>
-                    </li>
-                    <li>
-                        <a href="#">Sign in</a>
-                    </li>
+                    <li><a href="#services">Features</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#access">Sign in</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,7 +64,7 @@
     </section>
 
     <div class="curv-background">
-        <section class="services">
+        <section class="services" id="services">
 
             <div class="service">
                 <img src="src/images/icon-access-anywhere.svg" alt="Illustration of a Monitor and a smartphone"
@@ -127,10 +121,9 @@
                     </p>
                 </div>
             </div>
-
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <img src="src/images/illustration-stay-productive.png" alt="Illustration of people sharing ideas"
                     title="People sharing ideas">
@@ -211,7 +204,8 @@
             </div>
     </div>
     </section>
-    <section class="access">
+
+    <section class="access" id="access">
         <div class="container">
             <div class="access-information">
                 <h3 class="title">Get early access today</h3>
@@ -221,14 +215,65 @@
             </div>
 
             <form method="post" class="call-to-action">
-                <input type="email" name="email" id="email" placeholder="email@example.com">
+                <input type="email" name="email" id="email" placeholder="email@example.com" required>
                 <button type="submit" class="btn-call-to-action">Get Started For Free</button>
             </form>
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
 
-    <footer class="footer"></footer>
+            <a class="footer-logo" href="#">
+                <img src="src/images/logo.svg" alt="Logo Fylo" title="Logo Fylo">
+            </a>
+
+            <div class="footer-container">
+                <div class="information">
+                    <div class="location">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua
+                        </p>
+                    </div>
+
+                    <div class="contact">
+                        <p>+1-543-123-4567</p>
+                        <p>example@fylo.com</p>
+                    </div>
+                </div>
+
+                <nav class="footer-navigation">
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </nav>
+
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://alinemozer.github.io/projeto-portfolio-amb-dev/">AMB/DEV</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
 </body>
 
 </html>

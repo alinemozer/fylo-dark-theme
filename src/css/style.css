@@ -18,17 +18,18 @@ body {
 .container {
     max-width: var(--max-width-size);
     margin: 0 auto;
+    padding: 0 35px;
 }
 
 .header .container {
-    padding: 55px;
+    padding: 45px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header .header-logo img {
-    max-width: 170px;
+    width: 170px;
 }
 
 .header .header-navigation ul {
@@ -36,7 +37,8 @@ body {
 }
 
 .header .header-navigation ul li a {
-    margin: 0 25px;
+    margin: 0 0 0 25px;
+    font-size: 1.6rem;
     transition: 0.3s ease-in-out;
 }
 
@@ -73,7 +75,7 @@ body {
     font-size: 2rem;
     line-height: 30px;
     text-align: center;
-    margin: 10px auto 20px;
+    margin: 0 auto 20px;
 }
 
 .btn-call-to-action {
@@ -87,6 +89,7 @@ body {
 
 .btn-call-to-action:hover {
     background: var(--color1-gradient);
+    cursor: pointer;
 }
 
 .curv-background  {
@@ -100,7 +103,7 @@ body {
     justify-content: center;
     max-width: 900px;
     margin: 0 auto;
-    padding-bottom: 150px;
+    padding:  0 0 150px;
     column-gap: 120px;
     row-gap: 80px;
 }
@@ -196,66 +199,204 @@ body {
 
 .testimonials .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     column-gap: 35px;
-    max-width: 1110px;
-    padding: 0 0 300px 0;
+    max-width: 1250px;
+    padding: 0 0 350px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .testimonials .testimonial {
     background-color: var(--background-color-testimonials);
-    padding: 35px 25px 20px;
+    padding: 35px 25px;
+    width: 350px;
     border-radius: .3em;
     box-shadow: 10px 10px 15px var(--background-color-hero-and-email);
+}
+
+.testimonials .testimonial.quotes {
     position: relative;
 }
 
-.testimonials .testimonial.quotes::after {
-    content: url(../images/bg-quotes.png);
+.testimonials .testimonial.quotes::before {
+    content: "";
+    background: url(../images/bg-quotes.png) no-repeat;
+    width: 60px;
+    height: 60px;
     position: absolute;
     left: -10px;
     top: -35px;
+    position: absolute;
+    z-index: -1;
 }
 
 .testimonials .testimonial .member {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin: 25px 0 0 0;
 }
 
 .testimonials .testimonial .member img {
-    width: 35px;
+    width: 30px;
     border-radius: 50px;
     margin: 0 10px 0 0;  
 }
 
 .testimonials .testimonial .member-information h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .testimonials .testimonial .member-information p {
     font-size: 1rem;
-    padding: 2px 0 0 0;
+    padding: 1px 0 0 0;
+}
+
+.access {
+    background-color: var(--background-color-footer);
+    height: 200px;
 }
 
 .access .container {
-    background-color: green;
-    max-width: 800px;
+    background-color: var(--background-color-hero-and-email);
+    max-width: 855px;
     margin: 0 auto;
     padding: 40px 45px;
     border-radius: .3em;
     text-align: center;
+    position: relative;
+    top: -160px;
+    box-shadow: 15px 10px 15px var(--background-color-footer);
 }
 
 .access .access-information h3 {
     font-size: 3rem;
-    padding: 0 0 20px 0 ;
+    padding: 0 0 20px 0;
 }
 
 .access .access-information p {
-    max-width: 650px;
+    padding: 0 45px;
+    margin: 0 0 35px 0;
 }
 
+.access .call-to-action input {
+    padding: 18px 35px;
+    margin: 0 20px 0 0;
+    border-radius: 50px;
+    width: 470px;
+}
 
+.access .call-to-action input::placeholder {
+    text-align: start;
+}
+
+.access .call-to-action .btn-call-to-action {
+    color: var(--neutral-color);
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.footer {
+    background-color: var(--background-color-footer);
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.footer .container .footer-logo img {
+    width: 150px;
+    padding: 0 0 35px 0;
+}
+
+.footer .container .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 0 80px;
+}
+
+.footer-container .information {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 80px;
+}
+
+.footer-container .location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-container .location p {
+    max-width: 345px;
+    display: flex;
+}
+
+.footer-container .location p:first-child::before {
+    content: url(../images/icon-location.svg);
+    padding: 5px 25px 0 0;
+}
+
+.footer-container .contact p:first-child {
+    padding: 0 0 15px;
+}
+
+.footer-container .contact p:first-child::before {
+    content: url(../images/icon-phone.svg);
+    padding: 0 25px 0 0;
+}
+
+.footer-container .contact p:nth-child(2)::before {
+    content: url(../images/icon-email.svg);
+    padding: 0 25px 0 0;
+}
+
+.footer-container .footer-navigation {
+    display: flex;
+    column-gap: 80px;   
+}
+
+.footer-container .footer-navigation ul li {
+    margin: 0 0 20px;
+}
+
+.footer-container .footer-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .socials {
+    display: flex;
+}
+
+.footer .socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.footer .socials a:hover {
+    color: var(--color1-gradient);
+}
+
+.footer .attribution {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+.footer .attribution a:hover {
+    color: var(--color1-gradient);
+}

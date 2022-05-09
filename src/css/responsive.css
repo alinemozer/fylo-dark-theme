@@ -1,0 +1,190 @@
+@media (max-width: 1300px) {
+    .about {
+        padding: 0 35px;
+    }
+
+    .about img {
+        padding: 0 0 50px;
+    }
+
+    .testimonials {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .testimonials .testimonial {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 1170px) {
+    .footer .container .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container .footer-navigation {
+        margin: 65px 0 65px;
+    }
+
+    .footer .socials {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 935px) {
+    .services {
+        padding: 0 35px 55px;
+    }
+
+    .about img {
+        margin: 45px 0 10px;
+    }
+
+    .access {
+        padding: 0 25px 0;
+    }
+
+    .access .container {
+        max-width: 520px;
+        padding: 35px 0;
+    }
+
+    .access .call-to-action input {
+        width: 260px;
+        padding: 18px 15px;
+        margin: 0 auto 15px;
+        font-size: 1.1rem;
+    }
+
+    .access .call-to-action .btn-call-to-action {
+        color: var(--neutral-color);
+        font-weight: 700;
+        padding: 18px 35px;
+        width: 260px;
+    }
+
+    .footer {
+        padding: 65px 0 0;
+    }
+}
+
+@media (max-width: 725px) {
+    .footer .container .footer-logo img {
+        margin: 30px 0 0;
+    }
+    .footer-container .contact {
+        margin: 30px 0 0;    
+    }
+
+    .footer-container .footer-navigation {
+        flex-direction: column;
+    }
+
+    .footer-container .footer-navigation ul li:last-child {
+        margin: 0 0 55px;
+    }
+}
+
+@media (max-width: 645px) {
+
+    .header .header-logo img {
+        width: 85px;
+    }
+
+    .header .header-navigation ul li a {
+        margin: 0 0 0 25px;
+        font-size: 1.2rem;
+    }
+
+    .testimonials .testimonial.quotes::before {
+        background-size: 20px 20px;
+        top: -15px;
+    }
+
+    .testimonials .testimonial {
+        width: 280px;
+    }
+
+    .testimonials .testimonial > p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .header .container {
+        padding: 45px 20px;
+    }
+
+    .hero {
+        background: url(../images/bg-curvy-mobile.svg) bottom no-repeat;
+        padding: 0;
+    }
+
+    .hero .hero-information h1 {
+        font-size: 2.2rem;
+        line-height: 35px;
+    }
+
+    .hero .hero-information p {
+        font-size: 1.4rem;
+        line-height: normal;
+    }
+
+    .hero .btn-call-to-action {
+        padding: 15px 85px;
+    }
+
+    .services .service .service-information h3,
+    .about .about-information h2,
+    .access .access-information h3 {
+        font-size: 1.6rem;
+    }
+
+    .services .service .service-information p,
+    .about .about-information p,
+    .about .about-information a,
+    .about .about-information a::after,
+    .access .access-information p {
+        font-size: 1.3rem;
+    } 
+
+    .services {
+        padding: 70px 30px 0;
+    }
+
+    .services .service img {
+        width: 70px;
+    }
+
+    .services .service .security {
+        width: 55px;
+    }
+
+    .services .service .service-information p {
+        line-height: normal;
+    }
+
+    .about img {
+        padding: 70px 0 20px;
+    }
+    
+    .about .about-information a {
+        width: 140px;
+    }
+
+    .about .about-information h2 {
+        padding: 0;
+    }
+
+    .about .about-information p {
+        padding: 15px 0 0;
+    }
+
+    .access .access-information p {
+        padding: 0 25px;
+    }
+   
+    .footer {
+        font-size: 1.4rem;
+    }
+}
