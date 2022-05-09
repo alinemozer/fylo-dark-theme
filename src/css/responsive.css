@@ -118,6 +118,7 @@
     .hero {
         background: url(../images/bg-curvy-mobile.svg) bottom no-repeat;
         padding: 0;
+        background-size: contain;
     }
 
     .hero .hero-information h1 {
