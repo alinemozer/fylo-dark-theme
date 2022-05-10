@@ -70,18 +70,18 @@
 
 @media (max-width: 725px) {
     .footer .container .footer-logo img {
-        margin: 30px 0 0;
+        margin: 20px 0 0;
     }
     .footer-container .contact {
-        margin: 30px 0 0;    
+        margin: 25px 0 0;    
     }
 
     .footer-container .footer-navigation {
         flex-direction: column;
     }
 
-    .footer-container .footer-navigation ul li:last-child {
-        margin: 0 0 55px;
+    .footer-container .footer-navigation ul li:nth-child(4) {
+        margin: 0 0 50px;
     }
 }
 
@@ -163,6 +163,10 @@
 
     .services .service .service-information p {
         line-height: normal;
+    }
+
+    .about .container {
+        padding: 0 0 100px;
     }
 
     .about img {
