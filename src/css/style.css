@@ -88,7 +88,7 @@ body {
 }
 
 .btn-call-to-action:hover {
-    background: var(--color1-gradient);
+    background: linear-gradient(to right, var(--color1-gradient), var(--color1-gradient));
     cursor: pointer;
 }
 
@@ -197,7 +197,7 @@ body {
     background: url(../images/icon-arrow-white.svg) center
 }
 
-.testimonials .container {
+.testimonials .container ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -226,7 +226,6 @@ body {
     background: url(../images/bg-quotes.png) no-repeat;
     width: 60px;
     height: 60px;
-    position: absolute;
     left: -10px;
     top: -35px;
     position: absolute;
