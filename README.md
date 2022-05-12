@@ -12,4 +12,4 @@ e ao posicionamento de outros elementos, como as "aspas" da seção "Testimonals
    
 ✔ Projeto finalizado, nas resoluções 375px e 1440px:
 
-![Gif Fylo](https://user-images.githubusercontent.com/97855964/168119552-28c68305-c654-49cd-84df-8dd26591dd64.gif)
+![Gif Fylo](https://user-images.githubusercontent.com/97855964/168123364-b063d9c2-1255-41a0-b529-3540147b208e.gif)
