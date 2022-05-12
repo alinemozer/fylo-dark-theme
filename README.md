@@ -10,6 +10,6 @@ e ao posicionamento de outros elementos, como as "aspas" da seção "Testimonals
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
    
-✔Projeto finalizado:
-https://user-images.githubusercontent.com/97855964/168098900-8eeaf1fd-7b16-427d-b74a-d1706e6b1356.mp4
+✔Projeto finalizado: <br>
+https://user-images.githubusercontent.com/97855964/168100601-26e8c76c-accd-4eb0-aade-560948f0254e.mp4
 
