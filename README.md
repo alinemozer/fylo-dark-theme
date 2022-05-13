@@ -3,7 +3,7 @@ Repositório com quest do curso DevQuest dos módulos HTML e CSS avançados. Pro
 
 📝 Projeto feito do zero, responsivo, com HTML semântico, utilizando propriedades flexbox, posicionamento de elementos e utilização de pseudo-elementos com css.
 
-🤓 Apesar de parecer simples em um primeiro momento, foi uma landing-page um tanto desafiadora, devido ao seu fundo de cor não linear na seção "Hero",
+🤓 Apesar de parecer simples em um primeiro momento, foi uma landing page um tanto desafiadora, devido ao seu fundo de cor não linear na seção "Hero",
 e ao posicionamento de outros elementos, como as "aspas" da seção "Testimonals" e a seção "Accesss".
 
 🖥 Tecnologias utilizadas:
